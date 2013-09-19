@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deneme</title>
+<meta charset='utf-8'>
+<style type="text/css">
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#sayfaUst {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 15px;
+
+}
+
+.ortala2 {
+    text-align: left;
+}
+
+#logo {
+    background: url('image/logo.png') no-repeat;
+    float: left;
+    width: 164px;
+    height: 88px;
+    /*margin-right: 190px;*/
+}
+
+#aramaKutusu {
+    float: right;
+    margin-top: 30px;
+    width:448px;
+    height: 19px;
+
+}
+
+.clearboth {
+    clear: both;
+}
+
+#menu {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    color: black;
+}
+
+ul li {
+    float: left;
+    list-style: none ;
+    margin-right: 15px;
+
+
+
+}
+
+ul a:hover {
+    color: #0060A6;
+
+}
+
+#Slider {
+    background-color: #107C0F;
+    height: 411px;
+    padding-top: 20px;
+
+}
+
+#kutu {
+    background-color: #000;
+    width: 302px;
+    height: 228px;
+    margin-left: 90px;
+    padding-top: 23px;
+}
+
+#xboxLogo {
+    background: url('image/xboxlogo.png') no-repeat;
+    float: left;
+    width: 164px;
+    height: 50px;
+    margin-left: 25px;
+    padding-top: 35px;
+}
+
+#kutununIcindekiYazi {
+    color: #fff;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-left: 25px;
+
+}
+#kutununIcindekiYazi ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#kutununIcindekiYazi ul li a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+#xboxFoto {
+    background: url('image/xboxfoto.png') no-repeat;
+    float: right;
+    width: 510px;
+    height: 380px;
+    top: 130px;
+    left: 470px;
+    position: absolute;
+}
+
+#ortaAlan {
+    height: 590px;
+    padding-top: 51px;
+    padding-left: 91px;
+}
+
+#ortaAlan2 {
+    height: 590px;
+    width: 300px;
+    float: left;
+}
+
+#ortaAlan3 {
+    float: right;
+    width: 900px;
+}
+h1,h2{
+    color:#1A1A1A;
+    font-weight: 300;
+    line-height:1.25;
+}
+
+#ortaAlan3 h2.ev {
+    float: left;
+}
+
+#ortaAlan3 a.isicin {
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #1570A6;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul#Fotolar p {
+    width: 278px;
+    font-size:0.9em;
+}
+
+ul#Fotolar a {
+    text-decoration: none;
+}
+
+ul#Fotolar a:hover {
+    text-decoration: underline;
+}
+
+#maviAlan {
+    height: 275px;
+    background-color: #1570A6;
+    padding-top: 55px;
+    padding-left: 88px;
+    padding-right: 91px;
+}
+
+#mavi2 {
+    width: 300px;
+    height: 275px;
+    color: #fff;
+    float: left;
+
+}
+
+div#mavi3 {
+    width: 900px;
+    height: 172px;
+    background-color: #10537B;
+    margin-left: 270px;
+    margin-top: 25px;
+    padding-top: 27px;
+    padding-left: 30px;
+}
+
+div#mavi3 a {
+    height: 112px;
+    background: url(http://s9.postimg.org/4omumkvcb/Pinpoint.jpg) bottom left no-repeat;
+    display: block;
+    text-decoration: none;
+    padding-top: 17px;
+    margin-left: 15px;
+}
+
+div#mavi3 a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div#mavi3 span {
+    margin-left: 190px;
+    display: block;
+    color: #fff;
+}
+
+#sonAlan{
+    background-color: #EEEEEE;
+    height:420px;
+}
+
+#altAlan {
+    height: 390px;
+    width:350px;
+    padding-top: 40px;
+    padding-left: 87px;
+    text-decoration: none;
+
+
+}
+ul.menu {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul.menu li {
+    list-style:none;
+    margin:0;
+    padding: 0px 20px;
+
+}
+ul.menu a.windows {
+    background:url(image/menu-1.png)  bottom left no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+ul.menu a.office {
+    background:url(image/menu-2.png) bottom left  no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+ul.menu a.windowsPhone {
+    background:url(image/menu-3.png)  bottom left no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+ul.menu a.skype {
+    background:url(image/menu-4.png)  bottom left no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+ul.menu a.xbox {
+    background:url(image/menu-5.png) bottom left no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+ul.menu a.microsoftStore {
+    background:url(image/menu-6.png) bottom left no-repeat;
+    height:39px;
+    line-height: 39px;
+    display:block;
+    margin-left:-15px;
+}
+
+ul.menu span.name {
+    margin-left:50px;
+    line-height:39px;
+    height:40px;
+}
+
+
+#altAlan2 {
+    width:900px;
+    float:left;
+    margin-top:-267px;
+    margin-left:200px;
+    clear:both;
+}
+div#altAlan2 ul span {
+    font-size:17px;
+    color:black;
+}
+div#altAlan2 ul li {
+    font-size:15px;
+    color:#4270B2;
+}
+div#altAlan2 ul {
+    float:left;
+    width:190px;
+    padding-left:100px;
+    padding-bottom:40px;
+}
+div#altAlan2 ul.clear {
+    clear:both;
+}
+
+
+#altalan3{
+    width:210px;
+    float:left;
+
+}
+
+#footer{
+    height:70px;
+    background-color:#EEEEEE;
+    padding-left: 82px;
+
+}
+
+    a.footer_left{
+    background:url('image/dunya.png') bottom left no-repeat;
+    display:block;
+    width:45px;
+    height:45px;
+    text-decoration:none;
+
+
+
+}
+
+div#footer span{
+    margin-left:40px;
+    display: block;
+    width:200px;
+    padding-left:10px;
+    line-height:38px;
+    text-decoration: none;
+    color:#0060A6;
+}
+
+
+#microsoft{
+    width: 110px;
+    height:26px;
+    float:right;
+    background:url(image/microsoft2.png);
+    margin-right:18px;
+    margin-top:-48px;
+}
+
+#baglantilar{
+    float:right;
+    width:850px;
+    height: 36px;
+    font-color: black;
+    margin-top: -15px;
+    font-size:10;
+}
+#sayfaUst ul li a {
+    text-decoration: none;
+    color:black;
+    font-family:"MSHPIconsRegular";
+    background: url('image/ok.jpg');
+
+}
+#sayfaUst ul li a:hover{
+    color:#0060A6;
+}
+
+#ortaAlan ul li a {
+    text-decoration: none;
+    color:#0060A6;
+    font-family:"MSHPIconsRegular";
+
+}
+
+#ortaAlan ul li a:hover{
+    color:black;
+    text-decoration:underline;
+}
+#ortaAlan h1,h2{
+    color:black;
+}
+#mavi2 ul li a,h1{
+    text-decoration: none;
+    color:#fff;
+}
+#mavi2 ul li a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+#sonAlan ul li a{
+    text-decoration: none;
+    color:#0060A6;
+}
+#sonAlan ul li a:hover{
+    color:black;
+    text-decoration:underline;
+}
+#altalan3 ul li a{
+    color:black;
+    text-decoration: none;
+}
+#altalan3 ul li a:hover{
+    color:black;
+    text-decoration:underline;
+}
+#footer ul li a{
+    color:#0060A6;
+    text-decoration:none;
+
+}
+#footer ul li a:hover{
+    color:black;
+    text-decoration:underline;
+}
+span.ustbosluk{
+    padding-top:50px;
+}
+
+#search{
+    border: 0 none;
+    background: url('image/search.png');
+    float:right;
+    height: 30px;
+    width:30px;
+    padding:0;
+    position:absolute;
+    margin-left:1175px;
+    margin-top:30px;
+
+}
+
+
+
+
+</style>
+
+<body>
+
+<div id="body">
+    <div id="sayfaUst">
+        <div id="logo"></div>
+        <input type="text" id="aramaKutusu">
+          <div id="search"></div>
+
+        <div class="clearboth"></div>
+
+        <ul>
+            <li><a href="#">Ürünler</a></li>
+            <li><a href="#">Karşıdan Yüklemeler</a></li>
+            <li><a href="#">Destek</a></li>
+            <li><a href="#">Alışveriş</a></li>
+        </ul>
+        <div class="clearboth"></div>
+
+    </div>
+
+
+</div>
+
+
+<div id="Slider">
+    <div id="kutu">
+        <div id="xboxLogo">
+            <div id="kutununIcindekiYazi">
+                <p> Karşınızda Xbox One. Hepsi Bir Arada Eğlence Sistemi</p>
+                <ul>
+                    <li><a href="#">Daha fazla bilgi</a></li>
+                </ul>
+
+                <div class="clearboth"></div>
+                <div id="xboxFoto">
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="ortaAlan">
+    <div id="ortaAlan2">
+        <h1>Keşfedin</h1><br>
+
+        <ul>
+            <li><a href="#">Windows</a></li>
+            <br>
+            <li><a href="#">Office</a></li>
+            <br>
+            <li><a href="#">Windows Phone</a></li>
+            <br>
+            <li><a href="#">Skype</a></li>
+            <br>
+            <li><a href="#">Xbox</a></li>
+        </ul>
+
+    </div>
+
+
+    <div id="ortaAlan3">
+        <h2 class="ev">Ev kullanıcıları için</h2><a class="isicin" href="http://jjjj">İş için</a>
+
+        <div class="clearboth"></div>
+
+        <ul id="Fotolar">
+            <li><a href="#"><img src=" http://s9.postimg.org/9yuzhydnz/foto1.png"/>
+
+                <p>Sadece size özel,mükemmel tasarım.Yeni Windows Phone'unuzu hemen seçin.</p></a>
+            </li>
+            <li><a href="#"><img src="http://s15.postimg.org/4y8yhhjvv/foto2.png"/>
+
+                <p>İhtiyacınız olan teknolojik ürünleri Microsoft Store'dan alın.</p></a>
+            </li>
+            <li><a href="#"><img src="http://s24.postimg.org/80y3nmr1h/foto3.png"/>
+
+                <p>Sizin için en uygun bilgisayarı bulmak için birkaç basit soruya yanıt verin.</p></a>
+            </li>
+        </ul>
+        <div class="clearboth"></div>
+
+
+        <div style="width:250px;">
+            <h2>Karşıdan Yüklemeler</h2><br>
+
+            <ul>
+                <li><a href="#">Windows 8.1 Preview</a></li>
+                <li><a href="#">Tüm Windows Yüklemeleri</a></li>
+                <li><a href="#">Office Yüklemeleri</a></li>
+                <li><a href="#">Yükleme Merkezi</a></li>
+            </ul>
+        </div>
+
+        <div style="width:250px; margin-top:-90px; margin-left:300px;">
+            <h2>Güvenlik ve güncelleştirmeler </h2><br>
+
+            <ul>
+                <li><a href="#">Microsoft Güncellemeleri</a></li>
+                <li><a href="#">Microsoft Security Essentials</a></li>
+                <li><a href="#">Microsoft hesap güvenliği bilgileri</a></li>
+            </ul>
+        </div>
+
+        <div style="width:250px; margin-top:-120px; margin-left:600px;">
+            <h2>Destek</h2>
+            <ul>
+                <li><a href="#">Windows Yardım Ve Nasıl Yapılır</a></li>
+                <li><a href="#">Office: Yardım Ve Nasıl Yapılır</a></li>
+                <li><a href="#">Microsoft Destek Anasayfa</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div id="maviAlan">
+    <div id="mavi2">
+        <h1>Takip edin</h1>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <br>
+            <li><a href="#">Twitter</a></li>
+            <br>
+            <li><a href="#">Windows Türkiye Blog</a></li>
+        </ul>
+    </div>
+
+
+    <div id="mavi3">
+
+        <a href="#">
+            <span>
+             <h3>Pinpot ile Uzmanlar aslında size çok yakın!</h3>
+                Pinpot ile bilişim şirketlerine kolayca ulaşabilir,Microsoft iş ortaklarını bulabilir,bu iş ortaklarını Uzmanlık derecelerine göre filtreleyebilirsiniz.</span>
+        </a>
+
+    </div>
+</div>
+<div id="sonAlan">
+<div id="altAlan">
+    <div id="altalan3">
+    <p>Diğer Microsoft Siteleri</p>
+
+    <ul class="menu">
+
+        <li>
+            <a class="windows" href="#">
+                <span class="name">Windows</span>
+
+            </a>
+        </li>
+        <li>
+            <a class="office" href="#">
+                <span class="name">Office</span>
+
+            </a>
+        </li>
+        <li>
+            <a class="windowsPhone" href="#">
+                <span class="name">Windows Phone</span>
+
+            </a>
+        </li>
+        <li>
+            <a class="skype" href="#">
+                <span class="name">Skype</span>
+
+            </a>
+        </li>
+        <li>
+            <a class="xbox" href="#">
+                <span class="name">Xbox</span>
+
+            </a>
+        </li>
+        <li>
+            <a class="microsoftStore" href="#">
+                <span class="name">Microsoft Store</span>
+
+            </a>
+        </li>
+
+
+    </ul>
+    </div>
+    <!-- altAlan2 baslangic -->
+    <div id="altAlan2">
+
+        <ul>
+            <li><span>Karşıdan Yüklemeler</span></li>
+            <br>
+            <br>
+            <li><a href="#">Yükleme Merkezi</a></li>
+            <br>
+            <br>
+            <li><a href="#">Windows Yüklemeleri</a></li>
+            <br>
+            <br>
+            <li><a href="#">Office Yüklemeleri</a></li>
+        </ul>
+
+
+        <ul>
+            <li><span>Güvenlik</span></li>
+            <br>
+            <br>
+            <li><a href="#">Güvenlik Anasayfa</a></li>
+            <br>
+            <br>
+            <li><a href="#">Microsoft Security Essentials</a></li>
+        </ul>
+
+        <ul>
+            <li><span>Popüler Kaynaklar</span></li>
+            <br>
+            <br>
+            <li><a href="#">PC</a></li>
+            <br>
+            <br>
+            <li><a href="#">Windows RT</a></li>
+            <br>
+            <br>
+            <li><a href="#">Tablet</a></li>
+        </ul>
+
+
+        <ul class="clear">
+            <li><span>Destek</span></li>
+            <br>
+            <br>
+            <li><a href="#">Destek Anasayfa</a></li>
+            <br>
+            <br>
+            <li><a href="#">Bilgi Bankası</a></li>
+            <br>
+        </ul>
+
+
+        <ul>
+            <li><span>Hakkında</span></li>
+            <br>
+            <br>
+            <li><a href="#">Kariyer</a></li>
+            <br>
+            <br>
+            <li><a href="#">Şirket Haberleri</a></li>
+            <br>
+            <br>
+            <li><a href="#">Site Haritası</a></li>
+        </ul>
+
+
+    </div>
+    <!-- altAlan2 son -->
+</div>
+</div>
+<div class="clearboth"></div>
+
+    <div id="footer">
+     <a href="#" class="footer_left"> <span>Türkiye - Türkçe</span></a>
+        <div id="microsoft"></div>
+
+        <div id="baglantilar">
+        <ul>
+            <li><a href="#">Profil Merkezi</a></li>
+            <li><a href="#">Bizimle Bağlantı Kurun</a></li>
+            <li><a href="#">Gizlilik</a></li>
+            <li><a href="#">Kullanım Koşulları</a></li>
+            <li><a href="#">Ticari Yazılımlar</a></li>
+            <li>© 2013 Microsoft</li>
+        </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+</html>
